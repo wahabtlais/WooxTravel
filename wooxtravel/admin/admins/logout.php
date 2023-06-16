@@ -1,0 +1,7 @@
+<?php
+
+session_start();
+session_unset();
+session_destroy();
+
+header("location: http://localhost/wooxtravel/admin/admins/login-admins.php");
